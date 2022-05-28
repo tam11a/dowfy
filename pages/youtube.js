@@ -21,7 +21,7 @@ import { ufs } from "../utilities/ufs";
 import download from "downloadjs";
 import { store } from "../utilities/db";
 
-const youtube = () => {
+const Youtube = () => {
   const [info, setInfo] = React.useState();
   const [audioList, setAudioList] = React.useState([]);
   const [videoList, setVideoList] = React.useState([]);
@@ -206,4 +206,4 @@ const youtube = () => {
   );
 };
 
-export default youtube;
+export default Youtube;

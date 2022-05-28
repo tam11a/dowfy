@@ -25,7 +25,7 @@ export default function Home() {
             textAlign: "center",
           }}
         >
-          Download Youtube Video's in Mp3 or Mp4 format.
+          Download Youtube Video&apos;s in Mp3 or Mp4 format.
         </Typography>
         <Button
           variant={"contained"}
