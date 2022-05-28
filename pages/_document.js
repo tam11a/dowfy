@@ -18,7 +18,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
           />
-          <meta name="theme-color" content="#2F3B52" />
+          <meta name="theme-color" content="#1d252c" />
           <link rel="manifest" href="manifest.json" />
           <link rel="apple-touch-icon" href="favicon.svg" />
           <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
@@ -31,7 +31,7 @@ class MyDocument extends Document {
         <body>
           <Box
             sx={{
-              p: '10px',
+              p: "10px",
               pb: "70px",
               position: "absolute",
               top: 0,

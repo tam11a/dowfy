@@ -1,12 +1,12 @@
 {
-  "theme_color": "#2F3B52",
-  "background_color": "#2F3B52",
+  "theme_color": "#1d252c",
+  "background_color": "#1d252c",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "MineCraft Serverlists",
-  "short_name": "MCS",
-  "description": "Best Server Lists from MineCraft.",
+  "name": "DowFy",
+  "short_name": "DowFy",
+  "description": "Find . Convert . Download",
   "icons": [
     {
       "src": "/maskable_icon_x192.png",
