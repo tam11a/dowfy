@@ -1,3 +1,3 @@
 ## dowfy
 
-Technologies: NextJS, MUIv5, Moment
+Technologies: NextJS, MUIv5 & ytdl-core
