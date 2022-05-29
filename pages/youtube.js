@@ -128,6 +128,11 @@ const Youtube = () => {
                       {row.previewFileSize || "-"} mb
                     </TableCell> */}
                     <TableCell align="right" 
+                    sx={{
+                      display: 'flex',
+                      direction: 'row',
+                      alignItems: 'center'
+                    }}
                       // 
                     >
                       <IconButton
@@ -190,7 +195,12 @@ const Youtube = () => {
                   </TableCell>
                   <TableCell align="right">{row.container}</TableCell>
                   {/* <TableCell align="left">{row.bitrate}</TableCell> */}
-                  <TableCell align="right">
+                  <TableCell align="right"
+                  sx={{
+                    display: 'flex',
+                    direction: 'row',
+                    alignItems: 'center'
+                  }}>
                       <IconButton
                         color={"tarnary"}
                         component={'a'}
