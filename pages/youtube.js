@@ -14,7 +14,7 @@ import {
 import React from "react";
 import Search from "../components/Search";
 import Image from "next/image";
-import { AiOutlineLike, AiOutlineDislike } from "react-icons/ai";
+import { AiOutlineLike, AiOutlineDislike, AiOutlineLink } from "react-icons/ai";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Title from "../components/Title";
 import { ufs } from "../utilities/ufs";
@@ -127,14 +127,24 @@ const Youtube = () => {
                     {/* <TableCell align="left">
                       {row.previewFileSize || "-"} mb
                     </TableCell> */}
-                    <TableCell align="right">
+                    <TableCell align="right" 
+                      // 
+                    >
+                      <IconButton
+                        color={"tarnary"}
+                        component={'a'}
+                        href={row.url}
+                        target={'_blank'}
+                      >
+                        <AiOutlineLink />
+                      </IconButton>
                       <IconButton
                         color={"secondary"}
                         onClick={async () => {
                           download(
                             row.url,
                             `${info.videoDetails.title}.${row.container}`,
-                            `${row.container}`
+                            `audio`
                           );
                           // store(
                           //   info.videoDetails.title,
@@ -181,6 +191,14 @@ const Youtube = () => {
                   <TableCell align="right">{row.container}</TableCell>
                   {/* <TableCell align="left">{row.bitrate}</TableCell> */}
                   <TableCell align="right">
+                      <IconButton
+                        color={"tarnary"}
+                        component={'a'}
+                        href={row.url}
+                        target={'_blank'}
+                      >
+                        <AiOutlineLink />
+                      </IconButton>
                     <IconButton
                       color={"secondary"}
                       onClick={async () => {
