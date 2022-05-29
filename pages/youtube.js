@@ -133,8 +133,8 @@ const Youtube = () => {
                         onClick={async () => {
                           download(
                             row.url,
-                            `${info.videoDetails.title}`,
-                            "audio/mpeg"
+                            `${info.videoDetails.title}.${row.container}`,
+                            `${row.container}`
                           );
                           // store(
                           //   info.videoDetails.title,
@@ -186,8 +186,8 @@ const Youtube = () => {
                       onClick={async () => {
                         download(
                           row.url,
-                          `${info.videoDetails.title}`,
-                          "video/mp4"
+                          `${info.videoDetails.title}.${row.container}`,
+                          `${row.container}`
                         );
                       }}
                     >
